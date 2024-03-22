@@ -16,8 +16,15 @@ To get started with Inkful, follow these steps:
 ## Contributing
 We welcome contributions from everyone! If you'd like to contribute to Inkful, please follow these steps:
 1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`.
+2. Create a new branch for your feature or bug fix:
+   - To submit a pull request to the master branch, create a branch named `master`:
+     ```bash
+     git checkout -b master
+     ```
+   - To make a branch with your name, create a new branch with your name:
+     ```bash
+     git checkout -b your-branch-name
+     ```
 3. Make your changes and commit them: `git commit -am 'Add new feature'`.
-4. Push to the branch: `git push origin my-feature`.
-5. Submit a pull request to the `main` branch of the original repository.
-
+4. Push to the branch: `git push origin your-branch-name`.
+5. Submit a pull request to the `master` branch of the original repository.
