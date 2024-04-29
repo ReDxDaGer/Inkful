@@ -1,9 +1,12 @@
+"use client";
 import React from 'react'
 import styles from './authLinks.module.css'
 import Link from 'next/link'
 
 
 const AuthLinks = () => {
+
+  const [open, setOpen] = React.useState(false)
 
   const status  = "notauthenticated"
 
@@ -15,6 +18,12 @@ const AuthLinks = () => {
         <span className={styles.link}>Logout</span>
         </>
     )}
+    <div className={styles.burger}>
+      <div className={styles.line}></div>
+      <div className={styles.line}></div>
+      <div className={styles.line}></div>
+
+    </div>
   </>
   )
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import style from './featured.module.css'
-const featured = () => {
+const Featured = () => {
   return (
-    <div>featured</div>
+    <div>Featured</div>
   )
 }
 
-export default featured
+export default Featured
