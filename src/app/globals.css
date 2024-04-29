@@ -2,7 +2,7 @@
  --bg: white;
  --textColor: black;
  --softbg: #f0f0f0;
- --softTextColor:#626262;
+ --softTextColor:#5c5c5c;
 }
 *{
   margin: 0;
@@ -14,7 +14,7 @@ body{
   overflow-x: hidden;
 }
 a{
-  color: black;
+  color: var(--textColor);
   text-decoration: none;
 }
 
@@ -23,6 +23,12 @@ a{
   --textColor: #ddd;
   --softBg: #1f273a;
   --softTextColor: #a6a6a6;
+}
+.light{
+  --bg: white;
+  --textColor: black;
+  --softbg: #f0f0f0;
+  --softTextColor:#5c5c5c;
 }
 .container{
   min-height: 100vh;
